@@ -53,7 +53,6 @@ strong {
 header.main-header {
   background: #fff;
   color: #fff;
-  /*padding: 1em;*/ 
 }
   header.main-header h1 {
     font-size: 40px; }
@@ -69,8 +68,24 @@ header.main-header {
   font-weight: bold; }
 
 .container {
+  position: relative;
   margin: auto;
-  /* max-width: 80%;  */
+}
+
+.main-header .container {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../img/1500x500.png);
+  height: 266px;
+}
+
+.banner-text {
+  position: absolute;
+  text-align: center;
+  font-size: 3.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .call-sign {
@@ -241,27 +256,18 @@ section {
   padding-bottom: 2em; }
 
 @media (min-width: 700px) {
-  .main-header .container {
-    /* max-width: 600px;  */
-  }
   .main-nav {
     font-size: 14px; }
   .album {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (min-width: 900px) {
-  .main-header .container {
-    /* max-width: 800px;  */
-  }
   .main-nav {
     font-size: 18px; }
   .album {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 1200px) {
-  .main-header .container {
-    /* max-width: 1024px;  */
-  }
   .main-nav {
     font-size: 18px; }
   .album {
