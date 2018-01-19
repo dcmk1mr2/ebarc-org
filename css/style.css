@@ -53,7 +53,8 @@ strong {
 header.main-header {
   background: #fff;
   color: #fff;
-  padding: 1em; }
+  /*padding: 1em;*/ 
+}
   header.main-header h1 {
     font-size: 40px; }
   header.main-header img {
@@ -69,7 +70,8 @@ header.main-header {
 
 .container {
   margin: auto;
-  max-width: 80%; }
+  /* max-width: 80%;  */
+}
 
 .call-sign {
   font-family: monospace;
@@ -240,7 +242,8 @@ section {
 
 @media (min-width: 700px) {
   .main-header .container {
-    max-width: 600px; }
+    /* max-width: 600px;  */
+  }
   .main-nav {
     font-size: 14px; }
   .album {
@@ -248,7 +251,8 @@ section {
 
 @media (min-width: 900px) {
   .main-header .container {
-    max-width: 800px; }
+    /* max-width: 800px;  */
+  }
   .main-nav {
     font-size: 18px; }
   .album {
@@ -256,7 +260,8 @@ section {
 
 @media (min-width: 1200px) {
   .main-header .container {
-    max-width: 1024px; }
+    /* max-width: 1024px;  */
+  }
   .main-nav {
     font-size: 18px; }
   .album {
