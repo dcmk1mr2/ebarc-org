@@ -167,7 +167,7 @@ header.main-header {
     max-width: 95%; }
   .main-nav ul {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     list-style: none;
     text-align: center; }
     .main-nav ul:last-child {
@@ -176,10 +176,9 @@ header.main-header {
     color: #fff;
     line-height: 2; }
     .main-nav a:hover {
-      color: #dc143c; }
+      font-weight: bold; }
   .main-nav li.current a {
-    color: #dc143c;
-    font-weight: bold;
+    /* color: #dc143c; */
     text-transform: uppercase; }
 
 section {
