@@ -174,7 +174,7 @@ header.main-header {
       padding-right: 0; }
   .main-nav a {
     color: #fff;
-    line-height: 2; }
+    line-height: 1; }
     .main-nav a:hover {
       font-weight: bold; }
   .main-nav li.current a {
