@@ -73,11 +73,52 @@ header.main-header {
 }
 
 .main-header .container {
-  background-size: cover;
   background-position: center center;
-  background-image: url(../img/1500x500.png);
+  background-repeat: no-repeat;
   height: 266px;
 }
+
+/* Page Banner Background Images */
+.page-home {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-events-current {
+  background-size: cover;
+  background-image: url(../img/events-current.jpg);
+}
+.page-events-past {
+  background-size: cover;
+  background-image: url(../img/events-past.jpg);
+}
+.page-license-want {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-license-have {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-links {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-photos {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-newsletter {
+  background-size: contain;
+  background-image: url(../img/blown-fuse-logo.svg);
+  /* height: 266px; */
+}
+.page-contact {
+  background-image: url(../img/1500x500.png);
+}
+
+
+
+
 
 .banner-text {
   position: absolute;
@@ -126,19 +167,18 @@ header.main-header {
     max-width: 95%; }
   .main-nav ul {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     list-style: none;
     text-align: center; }
     .main-nav ul:last-child {
       padding-right: 0; }
   .main-nav a {
     color: #fff;
-    line-height: 2; }
+    line-height: 1; }
     .main-nav a:hover {
-      color: #dc143c; }
+      font-weight: bold; }
   .main-nav li.current a {
-    color: #dc143c;
-    font-weight: bold;
+    /* color: #dc143c; */
     text-transform: uppercase; }
 
 section {
