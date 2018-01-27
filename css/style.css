@@ -177,8 +177,10 @@ header.main-header {
     line-height: 1; }
     .main-nav a:hover {
       font-weight: bold; }
+  .main-nav ul li {
+    margin-right: .2rem;
+    margin-left: .2rem; }
   .main-nav li.current a {
-    /* color: #dc143c; */
     text-transform: uppercase; }
 
 section {
