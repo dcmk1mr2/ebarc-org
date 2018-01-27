@@ -114,8 +114,8 @@ header.main-header {
   background-image: url(../img/mesh_network_image.jpg);
 }
 .page-photos {
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
+  background-size: 80%;
+  background-image: url(../img/banner.jpg);
 }
 .page-newsletter {
   background-size: contain;
@@ -127,7 +127,7 @@ header.main-header {
   background-image: url(../img/page-contact-ebarc-logo.svg);
 }
 .page-break {
-  background-size: contain;
+  background-size: 80%;
   background-image: url(../img/banner.jpg)
 }
 
