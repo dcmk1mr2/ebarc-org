@@ -72,6 +72,11 @@ header.main-header {
   text-shadow: #000 1px 1px 8px; 
 }
 
+.light {
+  color: #000;
+  text-shadow: #fff 1px 1px 8px; 
+}
+
 .container {
   position: relative;
   margin: auto;
@@ -106,7 +111,7 @@ header.main-header {
 }
 .page-links {
   background-size: cover;
-  background-image: url(../img/1500x500.png);
+  background-image: url(../img/mesh_network_image.jpg);
 }
 .page-photos {
   background-size: cover;
@@ -121,7 +126,10 @@ header.main-header {
   background-size: contain;
   background-image: url(../img/page-contact-ebarc-logo.svg);
 }
-
+.page-break {
+  background-size: contain;
+  background-image: url(../img/banner.jpg)
+}
 
 
 
