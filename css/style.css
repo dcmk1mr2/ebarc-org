@@ -67,17 +67,72 @@ header.main-header {
   font-size: 24px;
   font-weight: bold; }
 
+.dark {
+  color: #fff;
+  text-shadow: #000 1px 1px 8px; 
+}
+
+.light {
+  color: #000;
+  text-shadow: #fff 1px 1px 8px; 
+}
+
 .container {
   position: relative;
   margin: auto;
 }
 
 .main-header .container {
-  background-size: cover;
   background-position: center center;
-  background-image: url(../img/1500x500.png);
+  background-repeat: no-repeat;
   height: 266px;
 }
+
+/* Page Banner Background Images */
+.page-home {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-events-current {
+  background-size: cover;
+  background-image: url(../img/events-current.jpg);
+}
+.page-events-past {
+  background-size: cover;
+  background-image: url(../img/events-past.jpg);
+}
+.page-license-want {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-license-have {
+  background-size: cover;
+  background-image: url(../img/1500x500.png);
+}
+.page-links {
+  background-size: cover;
+  background-image: url(../img/mesh_network_image.jpg);
+}
+.page-photos {
+  background-size: 80%;
+  background-image: url(../img/banner.jpg);
+}
+.page-newsletter {
+  background-size: contain;
+  background-image: url(../img/blown-fuse-logo.svg);
+  /* height: 266px; */
+}
+.page-contact {
+  background-size: contain;
+  background-image: url(../img/page-contact-ebarc-logo.svg);
+}
+.page-break {
+  background-size: 80%;
+  background-image: url(../img/banner.jpg)
+}
+
+
+
 
 .banner-text {
   position: absolute;
@@ -126,19 +181,20 @@ header.main-header {
     max-width: 95%; }
   .main-nav ul {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     list-style: none;
     text-align: center; }
     .main-nav ul:last-child {
       padding-right: 0; }
   .main-nav a {
     color: #fff;
-    line-height: 2; }
+    line-height: 1; }
     .main-nav a:hover {
-      color: #dc143c; }
+      font-weight: bold; }
+  .main-nav ul li {
+    margin-right: .2rem;
+    margin-left: .2rem; }
   .main-nav li.current a {
-    color: #dc143c;
-    font-weight: bold;
     text-transform: uppercase; }
 
 section {
