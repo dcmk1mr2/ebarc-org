@@ -142,55 +142,6 @@ header.main-header {
   background-image: url(../img/banner.jpg)
 }
 
-
-
-
-/* Page Banner Background Images */
-.page-home {
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
-}
-.page-events-current {
-  background-size: cover;
-  background-image: url(../img/events-current.jpg);
-}
-.page-events-past {
-  background-size: cover;
-  background-image: url(../img/events-past.jpg);
-}
-.page-license-want {
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
-}
-.page-license-have {
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
-}
-.page-links {
-  background-size: cover;
-  background-image: url(../img/mesh_network_image.jpg);
-}
-.page-photos {
-  background-size: 80%;
-  background-image: url(../img/banner.jpg);
-}
-.page-newsletter {
-  background-size: contain;
-  background-image: url(../img/blown-fuse-logo.svg);
-  /* height: 266px; */
-}
-.page-contact {
-  background-size: contain;
-  background-image: url(../img/page-contact-ebarc-logo.svg);
-}
-.page-break {
-  background-size: 80%;
-  background-image: url(../img/banner.jpg)
-}
-
-
-
-
 .banner-text {
   position: absolute;
   text-align: center;
