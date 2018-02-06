@@ -111,11 +111,12 @@ header.main-header {
 }
 .page-links {
   background-size: cover;
-  background-image: url(../img/mesh_network_image.jpg);
+  background-image: url(../img/Page-Links-mesh-header-image.png);
 }
 .page-photos {
   background-size: 80%;
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/Antique_Camera.jpg);
+  /*background-image: url(../img/banner.jpg);*/
 }
 .page-newsletter {
   background-size: contain;
@@ -124,7 +125,8 @@ header.main-header {
 }
 .page-contact {
   background-size: contain;
-  background-image: url(../img/page-contact-ebarc-logo.svg);
+  background-image: url(../img/vla.jpg);
+  /*background-image: url(../img/page-contact-ebarc-logo.svg);*/
 }
 .page-break {
   background-size: 80%;
