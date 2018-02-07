@@ -88,6 +88,12 @@ header.main-header {
 }
 
 /* Page Banner Background Images */
+.page-have {
+  background-position: center;
+/*  background-size: cover;  */
+  background-size: 30%;
+  background-image: url(../img/ca_plate.png);
+}
 .page-home {
   background-position: center;
   background-size: cover;
@@ -117,6 +123,7 @@ header.main-header {
   background-position: center;
   background-size: cover;
   background-image: url(../img/Page-Links-mesh-header-image.png);
+
 }
 .page-photos {
   background-position: center;
@@ -139,9 +146,13 @@ header.main-header {
 .page-break {
   background-position: center;
   background-size: 80%;
-  background-image: url(../img/banner.jpg)
+  background-image: url(../img/bann.jpg)
 }
-
+.page-want {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/banner_form_605.jpg);
+}
 
 
 
