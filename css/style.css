@@ -119,10 +119,9 @@ header.main-header {
     z-index: -1; }
 .page-have {
   background-position: center;
-/*  background-size: cover;  */
   background-size: 30%;
   background-image: url(../img/ca_plate.png);
-}
+  z-index: 0; }
 .page-events-past {
   background-position: center;
   background-size: cover;
