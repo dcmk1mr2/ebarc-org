@@ -109,7 +109,7 @@ header.main-header {
   background-size: cover;
   background-image: url(../img/events-past.jpg);
 }
-.page-license-want {
+/* .page-license-want {
   background-position: center;
   background-size: cover;
   background-image: url(../img/1500x500.png);
@@ -118,7 +118,7 @@ header.main-header {
   background-position: center;
   background-size: cover;
   background-image: url(../img/1500x500.png);
-}
+} */
 .page-links {
   background-position: center;
   background-size: cover;
@@ -149,9 +149,20 @@ header.main-header {
   background-image: url(../img/bann.jpg)
 }
 .page-want {
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  background-image: url(../img/banner_form_605.jpg);
+  z-index: 0;
+}
+.page-want::after {
+  content: "";
+  background: url(../img/ncvec_form-605.jpg);
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 
