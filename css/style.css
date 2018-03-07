@@ -209,7 +209,7 @@ header.main-header {
     max-width: 95%; }
   .main-nav ul {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     list-style: none;
     text-align: center; }
     .main-nav ul:last-child {
