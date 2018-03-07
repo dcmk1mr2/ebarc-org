@@ -58,7 +58,8 @@ header.main-header {
     font-size: 40px; }
   header.main-header img {
     margin: auto;
-    width: 100%; }
+    width: 100%; 
+  }
 
 .loud {
   background-color: crimson;
@@ -170,6 +171,7 @@ header.main-header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 .call-sign {
   font-family: monospace;
