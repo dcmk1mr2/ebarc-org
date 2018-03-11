@@ -141,7 +141,6 @@ header.main-header {
   background-position: center;
   background-size: contain;
   background-image: url(../img/blown-fuse-logo.svg);
-  /* height: 266px; */
 }
 .page-about {
   background-position: center;
@@ -182,6 +181,7 @@ header.main-header {
     padding-bottom: 20px; }
 
 .main-nav {
+  position: relative;
   background-color: #008080;
   font-size: 2.5vw;
   margin: auto;
@@ -189,9 +189,9 @@ header.main-header {
   z-index: 99; }
   .main-nav .container {
     max-width: 95%; }
-  .main-nav ul {
+  .main-nav .container ul {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     list-style: none;
     text-align: center; }
     .main-nav ul:last-child {
@@ -204,8 +204,25 @@ header.main-header {
   .main-nav ul li {
     margin-right: .2rem;
     margin-left: .2rem; }
-  .main-nav li.current a {
+  .main-nav li.current > a {
     text-transform: uppercase; }
+  #submenu {
+    /* transition: all .4s; */
+    position: absolute;
+    /* display: none; */
+    /* transform: translateX(12.5%); */
+    padding: .3rem .5rem;
+    background-color: #008080; }
+    #submenu li {
+      /* display: block; */
+      color: #eee;
+      font-size: 1rem;
+      line-height: 1.3em; }
+      #submenu li:hover {
+        /* display: block; */
+        font-weight: normal;
+        color: #000;
+      }
 
 section {
   padding: 10px 5%; }

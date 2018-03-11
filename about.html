@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>About</title>
+  <title>About — East Bay Area Amateur Radio Club</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,7 +20,16 @@
         <li><a href="events.html">Current Events</a></li>
         <li><a href="want.html">Want A License?</a></li>
         <li ><a href="have.html">Have A License?</a></li>
-        <li class="current"><a href="about.html">About</a></li>
+        <li class="current"><a href="#" onclick="showSubmenu()" role="button">About</a>
+          <div id="submenu">
+            <ul>
+              <li><a href="photos.html">Photo Gallery</a></li>
+              <li><a href="news.html">Newsletters</a></li>
+              <li><a href="events-past.html">Past Events</a></li>
+              <li><a href="links.html">Links</a></li>
+            </ul>
+          </div>
+        </li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
@@ -35,41 +44,45 @@
  
   <section>
     <div class="container">
-        <div class="section-thumb-container"><div class="section-thumb">Past Events</div></div>
-        <p>Here are some past events</p>
-        <li><a href="events-past.html">Past Events</a></li>
-      </div>
-
+      <div class="section-thumb-container"><div class="section-thumb">Past Events</div></div>
+      <p><a href="events-past.html">Here are some past events.</a></p>
+    </div>
   </section>
 
   <section>
     <div class="container">
-        <div class="section-thumb-container"><div class="section-thumb">Photos</div></div>
-        <p>Here are some photos</p>
-        <li><a href="photos.html">Photos</a></li>
-      </div>
-    </section>
+      <div class="section-thumb-container"><div class="section-thumb">Photos</div></div>
+      <p><a href="photos.html">Here are some photos.</a></p>
+    </div>
+  </section>
 
-    <section>
-        <div class="container">
-            <div class="section-thumb-container"><div class="section-thumb">Newsletters</div></div>
-            <p>Here are some newsletters</p>
-            <li><a href="news.html">Newsletters</a></li>
-          </div>
-        </section>
-    
-     
+  <section>
+    <div class="container">
+      <div class="section-thumb-container"><div class="section-thumb">Newsletters</div></div>
+        <p><a href="news.html">Here are some newsletters.</a></p>
+    </div>
+  </section>
 
-            <section>
-                <div class="container">
-                    <div class="section-thumb-container"><div class="section-thumb">Links</div></div>
-                    <p>Here are some links</p>
-                    <li><a href="links.html">Links</a></li>
-                  </div>
-                </section>
+  <section>
+    <div class="container">
+      <div class="section-thumb-container"><div class="section-thumb">Links</div></div>
+      <p><a href="links.html">Here are some links.</a></p>
+    </div>
+  </section>
 
   <footer>
       <p>EBARC, PO Box 1393, El Cerrito, CA 94530</p>
   </footer>
+
+  <script>
+    function showSubmenu() {
+      var x = document.getElementById("submenu");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
