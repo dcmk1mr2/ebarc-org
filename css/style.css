@@ -401,12 +401,9 @@ section {
   line-height: 42px;
   padding: 3px; }
 
-table.ebarc-bod,
-table td {
-  border: 1px solid #008080;
-  font-family: monospace;
-  font-size: 12px;
-  padding: 3px 16px; }
+.gsheet-embed {
+  text-align: center;
+ }
 
 footer {
   background-color: #008080;
