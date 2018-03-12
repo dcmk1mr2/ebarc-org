@@ -171,6 +171,15 @@ header.main-header {
 }
 
 
+.banner-text-small {
+  position: absolute; 
+  text-align: center;
+  font-size: 2.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .call-sign {
   font-family: monospace;
   font-weight: bold; }
