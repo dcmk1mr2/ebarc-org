@@ -95,13 +95,6 @@ header.main-header {
   background-size: cover;
   background-image: url(../img/page-about-image-ft-8.png);
 }
-
-.page-about-arrl{
-  background-position: center;
-  background-image: url(../img/Hello_Logo-high-fixed.jpg);
-  background-repeat: no-repeat;
-
-}
 .page-have {background-position: center;
 /*  background-size: cover;  */
   background-size: 30%;
