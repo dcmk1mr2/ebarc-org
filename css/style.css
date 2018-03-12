@@ -58,7 +58,8 @@ header.main-header {
     font-size: 40px; }
   header.main-header img {
     margin: auto;
-    width: 100%; }
+    width: 100%; 
+  }
 
 .loud {
   background-color: crimson;
@@ -88,6 +89,17 @@ header.main-header {
 }
 
 /* Page Banner Background Images */
+
+.page-about {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/page-about-image-ft-8.png);
+}
+.page-have {background-position: center;
+/*  background-size: cover;  */
+  background-size: 30%;
+  background-image: url(../img/ca_plate.png);
+}
 .page-home {
   background-position: center;
   background-size: cover;
@@ -117,6 +129,7 @@ header.main-header {
   background-position: center;
   background-size: cover;
   background-image: url(../img/Page-Links-mesh-header-image.png);
+
 }
 .page-photos {
   background-position: center;
@@ -134,18 +147,32 @@ header.main-header {
   background-position: bottom;
   background-size: cover;
   background-image: url(../img/vla.jpg);
-  /*background-image: url(../img/page-contact-ebarc-logo.svg);*/
 }
 .page-break {
   background-position: center;
   background-size: 80%;
-  background-image: url(../img/banner.jpg)
+  background-image: url(../img/bann.jpg)
+}
+.page-want {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/banner_form_605.jpg);
 }
 
 .banner-text {
-  position: absolute;
+  position: absolute; 
   text-align: center;
   font-size: 3.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.banner-text-small {
+  position: absolute; 
+  text-align: center;
+  font-size: 2.5em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -189,7 +216,7 @@ header.main-header {
     max-width: 95%; }
   .main-nav ul {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     list-style: none;
     text-align: center; }
     .main-nav ul:last-child {
@@ -372,12 +399,9 @@ section {
   line-height: 42px;
   padding: 3px; }
 
-table.ebarc-bod,
-table td {
-  border: 1px solid #008080;
-  font-family: monospace;
-  font-size: 12px;
-  padding: 3px 16px; }
+.gsheet-embed {
+  text-align: center;
+ }
 
 footer {
   background-color: #008080;
