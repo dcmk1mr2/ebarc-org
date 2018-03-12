@@ -95,60 +95,58 @@ header.main-header {
   background-size: cover;
   background-image: url(../img/page-about-image-ft-8.png);
 }
-
-.page-about-arrl{
-  background-position: center;
-  background-image: url(../img/Hello_Logo-high-fixed.jpg);
-  background-repeat: no-repeat;
-
-}
 .page-have {background-position: center;
 /*  background-size: cover;  */
   background-size: 30%;
   background-image: url(../img/ca_plate.png);
 }
+/* Page Banner Background Images */
 .page-home {
   background-position: center;
   background-size: cover;
-  background-image: url(../img/1500x500.png);
-}
+  background-image: url(../img/1500x500.png); }
 .page-events-current {
   background-position: center;
   background-size: cover;
-  background-image: url(../img/events-current.jpg);
-}
+  background-image: url(../img/events-current.jpg); }
+.page-want {
+  background-position: top;
+  background-size: cover;
+  z-index: 0; }
+  .page-want::after {
+    content: "";
+    background: url(../img/ncvec_form-605.jpg);
+    opacity: 0.25;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+.page-have {
+  background-position: center;
+  background-size: 30%;
+  background-image: url(../img/ca_plate.png);
+  z-index: 0; }
 .page-events-past {
   background-position: center;
   background-size: cover;
   background-image: url(../img/events-past.jpg);
 }
-.page-license-want {
-  background-position: center;
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
-}
-.page-license-have {
-  background-position: center;
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
-}
 .page-links {
   background-position: center;
   background-size: cover;
   background-image: url(../img/Page-Links-mesh-header-image.png);
-
 }
 .page-photos {
   background-position: center;
   background-size: cover;
   background-image: url(../img/Antique_Camera.jpg);
-  /*background-image: url(../img/banner.jpg);*/
 }
 .page-newsletter {
   background-position: center;
   background-size: contain;
   background-image: url(../img/blown-fuse-logo.svg);
-  /* height: 266px; */
 }
 .page-contact {
   background-position: bottom;
@@ -158,25 +156,12 @@ header.main-header {
 .page-break {
   background-position: center;
   background-size: 80%;
-  background-image: url(../img/bann.jpg)
-}
-.page-want {
-  background-position: center;
+  background-image: url(../img/banner.jpg); }
+.page-contact {
+  background-position: bottom;
   background-size: cover;
-  background-image: url(../img/banner_form_605.jpg);
+  background-image: url(../img/page-contact-vla.jpg);
 }
-
-
-
-.banner-text {
-  position: absolute;
-  text-align: center;
-  font-size: 3.5em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 
 .call-sign {
   font-family: monospace;
@@ -207,6 +192,7 @@ header.main-header {
     padding-bottom: 20px; }
 
 .main-nav {
+  position: relative;
   background-color: #008080;
   font-size: 2.5vw;
   margin: auto;
@@ -214,7 +200,7 @@ header.main-header {
   z-index: 99; }
   .main-nav .container {
     max-width: 95%; }
-  .main-nav ul {
+  .main-nav .container ul {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     list-style: none;
@@ -229,8 +215,25 @@ header.main-header {
   .main-nav ul li {
     margin-right: .2rem;
     margin-left: .2rem; }
-  .main-nav li.current a {
+  .main-nav li.current > a {
     text-transform: uppercase; }
+  #submenu {
+    /* transition: all .4s; */
+    position: absolute;
+    /* display: none; */
+    /* transform: translateX(12.5%); */
+    padding: .3rem .5rem;
+    background-color: #008080; }
+    #submenu li {
+      /* display: block; */
+      color: #eee;
+      font-size: 1rem;
+      line-height: 1.3em; }
+      #submenu li:hover {
+        /* display: block; */
+        font-weight: normal;
+        color: #000;
+      }
 
 section {
   padding: 10px 5%; }
