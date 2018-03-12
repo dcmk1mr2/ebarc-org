@@ -58,7 +58,8 @@ header.main-header {
     font-size: 40px; }
   header.main-header img {
     margin: auto;
-    width: 100%; }
+    width: 100%; 
+  }
 
 .loud {
   background-color: crimson;
@@ -86,13 +87,25 @@ header.main-header {
   background-repeat: no-repeat;
   height: 266px;
 }
-.banner-text {
-  position: absolute;
-  text-align: center;
-  font-size: 3.5em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+/* Page Banner Background Images */
+
+.page-about {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/page-about-image-ft-8.png);
+}
+
+.page-about-arrl{
+  background-position: center;
+  background-image: url(../img/Hello_Logo-high-fixed.jpg);
+  background-repeat: no-repeat;
+
+}
+.page-have {background-position: center;
+/*  background-size: cover;  */
+  background-size: 30%;
+  background-image: url(../img/ca_plate.png);
 }
 /* Page Banner Background Images */
 .page-home {
@@ -142,7 +155,12 @@ header.main-header {
   background-size: contain;
   background-image: url(../img/blown-fuse-logo.svg);
 }
-.page-about {
+.page-contact {
+  background-position: bottom;
+  background-size: cover;
+  background-image: url(../img/vla.jpg);
+}
+.page-break {
   background-position: center;
   background-size: 80%;
   background-image: url(../img/banner.jpg); }
@@ -151,6 +169,7 @@ header.main-header {
   background-size: cover;
   background-image: url(../img/page-contact-vla.jpg);
 }
+
 
 .call-sign {
   font-family: monospace;
