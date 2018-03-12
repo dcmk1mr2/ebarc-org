@@ -87,95 +87,104 @@ header.main-header {
   background-repeat: no-repeat;
   height: 266px;
 }
+@media screen and (max-width: 600px) {
+  .main-header .container {
+    height: 20vh;
+  }
+}
 
 /* Page Banner Background Images */
 
-.page-about {
-  background-position: center;
-  background-size: cover;
-  background-image: url(../img/page-about-image-ft-8.png);
-}
-.page-have {background-position: center;
-/*  background-size: cover;  */
-  background-size: 30%;
-  background-image: url(../img/ca_plate.png);
-}
 .page-home {
   background-position: center;
   background-size: cover;
   background-image: url(../img/1500x500.png);
 }
+.page-about {
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/page-about-image-ft-8.png);
+}
+.page-have {
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/ca_plate.png);
+}
 .page-events-current {
   background-position: center;
   background-size: cover;
-  background-image: url(../img/events-current.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/events-current.jpg);
 }
 .page-events-past {
   background-position: center;
   background-size: cover;
-  background-image: url(../img/events-past.jpg);
-}
-.page-license-want {
-  background-position: center;
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
-}
-.page-license-have {
-  background-position: center;
-  background-size: cover;
-  background-image: url(../img/1500x500.png);
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/events-past.jpg);
 }
 .page-links {
   background-position: center;
   background-size: cover;
-  background-image: url(../img/Page-Links-mesh-header-image.png);
-
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/Page-Links-mesh-header-image.png);
 }
 .page-photos {
   background-position: center;
   background-size: cover;
-  background-image: url(../img/Antique_Camera.jpg);
-  /*background-image: url(../img/banner.jpg);*/
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/Antique_Camera.jpg);
 }
 .page-newsletter {
   background-position: center;
   background-size: contain;
-  background-image: url(../img/blown-fuse-logo.svg);
-  /* height: 266px; */
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/blown-fuse-logo.svg);
 }
 .page-contact {
   background-position: bottom;
   background-size: cover;
-  background-image: url(../img/vla.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/vla.jpg);
 }
 .page-break {
   background-position: center;
   background-size: 80%;
-  background-image: url(../img/bann.jpg)
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/bann.jpg)
 }
 .page-want {
   background-position: center;
   background-size: cover;
-  background-image: url(../img/banner_form_605.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.5),
+                                    transparent 100%), 
+                                    url(../img/banner_form_605.jpg);
 }
-
 .banner-text {
   position: absolute; 
   text-align: center;
-  font-size: 3.5em;
+  font-size: 4rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 80%;
 }
 
-
-.banner-text-small {
-  position: absolute; 
-  text-align: center;
-  font-size: 2.5em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media screen and (max-width: 600px) {
+  .banner-text {
+    font-size: 3rem;
+    width: 90%;
+  }
 }
 
 .call-sign {
