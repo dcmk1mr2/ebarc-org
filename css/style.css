@@ -162,7 +162,7 @@ header.main-header {
 
 
 .banner-text {
-  position: absolute;
+  position: absolute; 
   text-align: center;
   font-size: 3.5em;
   top: 50%;
