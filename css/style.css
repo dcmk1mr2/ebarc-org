@@ -162,7 +162,6 @@ header.main-header {
   background-size: cover;
   background-image: url(../img/page-contact-vla.jpg);
 }
-.about-arrl { /* Probably okay left empty */ }
 
 .call-sign {
   font-family: monospace;
