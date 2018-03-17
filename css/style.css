@@ -172,7 +172,8 @@ header.main-header {
                                     url(../img/banner_form_605.jpg);
 }
 .banner-text {
-  position: absolute; 
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   font-size: 4rem;
   top: 50%;
