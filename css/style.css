@@ -436,3 +436,9 @@ footer {
   text-transform: uppercase;
   width: 100%;
   z-index: 99; }
+
+  @media (max-width: 700px) {
+    footer {
+      padding: 7px;
+    }
+  }
