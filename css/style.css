@@ -415,6 +415,7 @@ section {
 
 footer {
   background-color: #008080;
+  border-top: 2px solid #000000;
   bottom: 0;
   color: #fff;
   font-family: monospace;
