@@ -182,7 +182,7 @@ header.main-header {
 
 @media screen and (max-width: 600px) {
   .banner-text {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 90%;
   }
 }
