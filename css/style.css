@@ -6,9 +6,8 @@
   .section-thumb-container .section-thumb {
     border: solid 2px #000000;
     color: #ffffff;
-    font-family: inherit;
+    font-family: 'Courier New', Courier, monospace;
     font-size: inherit;
-    font-weight: bold;
     letter-spacing: 1px;
     overflow: visible;
     padding: 10px 5% 10px 12%;
@@ -415,12 +414,14 @@ section {
 
 footer {
   background-color: #008080;
+  border-top: 2px solid #000000;
   bottom: 0;
   color: #fff;
-  font-family: monospace;
-  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
   letter-spacing: 1px;
-  padding: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   position: fixed;
   text-align: center;
   text-transform: uppercase;
