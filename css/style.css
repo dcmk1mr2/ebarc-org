@@ -276,7 +276,7 @@ section {
     border: dashed 2px #008080;
     margin: 0 15%; }
   section:last-of-type {
-    margin-bottom: 66px; }
+    margin-bottom: 3.5rem; }
 
 .meeting .container {
   position: relative; }
@@ -439,6 +439,7 @@ footer {
 
   @media (max-width: 700px) {
     footer {
+      position: relative;
       padding: 7px;
     }
   }
