@@ -4,11 +4,10 @@
   margin-top: 30px;
   position: relative; }
   .section-thumb-container .section-thumb {
-    border: solid 2px #008080;
-    color: #008080;
-    font-family: inherit;
+    border: solid 2px #000000;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
     font-size: inherit;
-    font-weight: bold;
     letter-spacing: 1px;
     overflow: visible;
     padding: 10px 5% 10px 12%;
@@ -16,7 +15,7 @@
     word-wrap: unset;
     z-index: 1; }
     .section-thumb-container .section-thumb::after {
-      background-color: #bfbfbf;
+      background-color: #008080;
       content: '';
       height: 100%;
       left: 0;
@@ -34,7 +33,9 @@
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   background: #fafafa;
@@ -171,7 +172,8 @@ header.main-header {
                                     url(../img/banner_form_605.jpg);
 }
 .banner-text {
-  position: absolute; 
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   font-size: 4rem;
   top: 50%;
@@ -182,7 +184,7 @@ header.main-header {
 
 @media screen and (max-width: 600px) {
   .banner-text {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 90%;
   }
 }
@@ -217,9 +219,12 @@ header.main-header {
 
 .main-nav {
   background-color: #008080;
+  border: 2px solid #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
   font-size: 2.5vw;
   margin: auto;
-  padding: 18px 0;
+  padding: 0;
   z-index: 99; }
   .main-nav .container {
     max-width: 95%; }
@@ -232,14 +237,18 @@ header.main-header {
       padding-right: 0; }
   .main-nav a {
     color: #fff;
-    line-height: 1; }
+    line-height: 1;
+    vertical-align: middle; }
     .main-nav a:hover {
       font-weight: bold; }
   .main-nav ul li {
-    margin-right: .2rem;
-    margin-left: .2rem; }
+    height: 100%; }
+  .main-nav li.current {
+    background-color: #000000; }
   .main-nav li.current a {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    letter-spacing: 1px; }
 
 section {
   padding: 10px 5%; }
@@ -414,14 +423,22 @@ section {
 
 footer {
   background-color: #008080;
+  border-top: 2px solid #000000;
   bottom: 0;
   color: #fff;
-  font-family: monospace;
-  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
   letter-spacing: 1px;
-  padding: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   position: fixed;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
   z-index: 99; }
+
+  @media (max-width: 700px) {
+    footer {
+      padding: 7px;
+    }
+  }
