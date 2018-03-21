@@ -181,13 +181,22 @@ header.main-header {
   transform: translate(-50%, -50%);
   width: 80%;
 }
-
+/*
 @media screen and (max-width: 600px) {
   .banner-text {
     font-size: 2rem;
     width: 90%;
   }
 }
+*/
+@media screen and (max-width: 600px) {
+  .banner-text {
+    font-size: 2rem;
+    width: 90%;
+  }
+}
+
+
 
 .call-sign {
   font-family: monospace;
@@ -222,7 +231,8 @@ header.main-header {
   border: 2px solid #000000;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
-  font-size: 2.5vw;
+/*  font-size: 2.5vw; */
+  font-size: 2.75vw;
   margin: auto;
   padding: 0;
   z-index: 99; }
