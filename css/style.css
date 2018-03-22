@@ -108,6 +108,14 @@ header.main-header {
                                     transparent 100%), 
                                     url(../img/page-about-image-ft-8.png);
 }
+.page-HAB{
+  background-position: center;
+  background-size: inherit;
+  background-image: linear-gradient(rgba(0,0,0,.5),
+
+                                    transparent 100%), 
+                                    url(../img/balloon1.png);
+}
 .page-have {
   background-position: center;
   background-size: cover;
