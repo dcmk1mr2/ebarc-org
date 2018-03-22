@@ -112,9 +112,8 @@ header.main-header {
   background-position: center;
   background-size: inherit;
   background-image: linear-gradient(rgba(0,0,0,.5),
-
                                     transparent 100%), 
-                                    url(../img/balloon1.png);
+                                    url(../img/HAB-sky.jpg);
 }
 .page-have {
   background-position: center;
