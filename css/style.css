@@ -62,6 +62,11 @@ header.main-header {
     width: 100%; 
   }
 
+.HAB {
+  position: relative;
+  top: 20%;
+}
+
 .loud {
   background-color: crimson;
   padding: 12px;
@@ -110,7 +115,7 @@ header.main-header {
 }
 .page-HAB{
   background-position: center;
-  background-size: inherit;
+  background-size: cover;
   background-image: linear-gradient(rgba(0,0,0,.5),
                                     transparent 100%), 
                                     url(../img/HAB-sky.jpg);
