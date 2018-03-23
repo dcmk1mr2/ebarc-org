@@ -63,10 +63,9 @@ header.main-header {
   }
 
 .HAB {
-  position: relative;
-  top: 20%;
+  padding: 10px 5%;
+  margin: initial;
 }
-
 .loud {
   background-color: crimson;
   padding: 12px;
