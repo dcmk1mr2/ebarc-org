@@ -15,7 +15,7 @@
     word-wrap: unset;
     z-index: 1; }
     .section-thumb-container .section-thumb::after {
-      background-color: #536dfe;
+      background-color: #8f9bff;
       content: '';
       height: 100%;
       left: 0;
@@ -43,10 +43,10 @@ body {
   font-size: 16px; }
 
 a {
-  color: #b71c1c;
+  color: #8f9bff;
   text-decoration: none; }
   a:hover {
-    color: #f05545; }
+    color: #0043ca; }
 
 strong {
   font-weight: bold; }
