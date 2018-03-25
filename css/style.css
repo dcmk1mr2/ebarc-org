@@ -64,7 +64,7 @@ header.main-header {
     width: 100%; 
   }
 
-.HAB {
+.hab {
   padding: 10px 5%;
   margin: initial;
 }
@@ -114,7 +114,7 @@ header.main-header {
                                     transparent 100%), 
                                     url(../img/page-about-image-ft-8.png);
 }
-.page-HAB{
+.page-hab {
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(rgba(0,0,0,.5),
