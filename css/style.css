@@ -194,52 +194,20 @@ header.main-header {
   transform: translate(-50%, -50%);
   width: 80%;
 }
-/*
-@media screen and (max-width: 600px) {
-  .banner-text {
-    font-size: 2rem;
-    width: 90%;
+  @media screen and (max-width: 600px) {
+    .banner-text {
+      font-size: 2rem;
+      width: 90%;
+    }
   }
+.longish {
+  font-size: 2rem;
 }
-*/
-@media screen and (max-width: 600px) {
-  .banner-text {
-    font-size: 2rem;
-    width: 90%;
-  }
-}
-
-
 
 .call-sign {
   font-family: monospace;
   font-weight: bold; }
 
-/* 
-.cal-embed {
-  margin: 0 auto;
-  text-align: center; }
-  .cal-embed h1 {
-    text-align: center; }
-  .cal-embed p {
-    text-align: left; }
-    .cal-embed p.attribution {
-      font-size: 24px;
-      text-align: center; }
-  .cal-embed iframe {
-    border-width: 0;
-    height: 400px;
-    margin: 30px 0;
-    max-width: 500px;
-    width: 100%; }
-  .cal-embed .ad-hoc-events {
-    margin: 10px 0; }
-    .cal-embed .ad-hoc-events li {
-      padding-top: 10px; }
-  .cal-embed .container {
-    border-bottom: solid 1px #5d8888;
-    padding-bottom: 20px; }
-*/
 .cal-embed {
   margin: 0 auto;
   text-align: left; }
@@ -269,7 +237,6 @@ header.main-header {
   border: 2px solid #000000;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
-/*  font-size: 2.5vw; */
   font-size: 2.75vw;
   margin: auto;
   padding: 0;
@@ -508,3 +475,28 @@ footer {
       padding: 7px;
     }
   }
+
+  .hab {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hab img {
+    display: block;
+    /* width: 80%; */
+    margin: 1rem auto;
+  }
+
+  .specs {
+    margin-left: 10%;
+  }
+    .specs h1 {
+      margin-top: 1.2rem;
+    }
+    .specs h2 {
+      text-align: left;
+      font-size: 16px;
+      margin-bottom: .5rem;
+    }
+    .specs h3 {
+      margin-top: 1rem;
+    }
