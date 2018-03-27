@@ -15,7 +15,7 @@
     word-wrap: unset;
     z-index: 1; }
     .section-thumb-container .section-thumb::after {
-      background-color: #9d46ff;
+      background-color: #666ad1;
       content: '';
       height: 100%;
       left: 0;
@@ -43,12 +43,12 @@ body {
   font-size: 16px; }
 
 a {
-  color: #0a00b6;
+  color: #303f9f;
 /*  text-decoration: none; */
     text-decoration: none;
 }
   a:hover {
-    color: #6200ea; }
+    color: #001970; }
 
 strong {
   font-weight: bold; }
@@ -233,7 +233,7 @@ header.main-header {
     padding-bottom: 20px; }
 
 .main-nav {
-  background-color: #6200ea;
+  background-color: #666ad1;
   border: 2px solid #000000;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
@@ -444,7 +444,7 @@ section {
  }
 
 footer {
-  background-color: #6200ea;
+  background-color: #666ad1;
   border-top: 2px solid #000000;
   bottom: 0;
   color: #fff;
