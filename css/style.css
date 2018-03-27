@@ -285,7 +285,9 @@ section {
     list-style-position: outside;
     padding-left: 30px; }
   section li {
-    text-align: left; }
+    line-height: 1.4rem;
+    text-align: left; 
+  }
   section .centered {
     text-align: center; }
     section .centered ul {
@@ -299,11 +301,14 @@ section {
     margin: 0 15%; }
   section:last-of-type {
     margin-bottom: 3.5rem; }
-
+  
 .meeting .container {
   position: relative; }
   .meeting .container .meeting-address {
     margin: 0 auto; }
+  .meeting h3 {
+    margin-top: 2rem;
+  }
 
 .meeting address {
   font-family: monospace;
