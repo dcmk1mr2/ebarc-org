@@ -374,7 +374,7 @@ section {
   .photo-gallery .thumbnail .wrapper:hover {
     border: 1px solid #5d8888; }
   .photo-gallery .thumbnail .photo {
-    max-height: 150px;
+    /* max-height: 150px; */
     overflow: hidden;
     width: 100%; }
   .photo-gallery .thumbnail .desc {
