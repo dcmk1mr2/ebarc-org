@@ -301,7 +301,47 @@ section {
     margin: 0 15%; }
   section:last-of-type {
     margin-bottom: 3.5rem; }
-  
+
+.cards {
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem; 
+  /* font-family: 'Courier New', Courier, monospace; */
+  align-items: start;
+}
+.cards .container {
+  padding: 1rem;
+}
+.card {
+  box-shadow: 0 1px 5px #555;
+  background-color: #fff;
+  padding: 3px;
+  text-align: center;
+}
+  .card a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+.card__title {
+    align-self: start;
+    padding: .5rem;
+  }
+  .card__description {
+    padding: .5rem;
+    line-height: 1.2;
+  }
+  .button {
+    display: block;
+    background-color: #666ad1;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+  }
+
 .meeting .container {
   position: relative; }
   .meeting .container .meeting-address {
