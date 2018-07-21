@@ -319,19 +319,7 @@ section {
   padding: 3px;
   text-align: center;
 }
-  .card a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-.card__title {
-    align-self: start;
-    padding: .5rem;
-  }
-  .card__description {
-    padding: .5rem;
-    line-height: 1.2;
-  }
-  .button {
+  .card .button {
     display: block;
     background-color: #666ad1;
     padding: 10px 20px;
@@ -340,6 +328,19 @@ section {
     text-decoration: none;
     text-align: center;
     transition: .3s ease-out;
+  }
+
+  .card a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  .card__title {
+    align-self: start;
+    padding: .5rem;
+  }
+  .card__description {
+    padding: .5rem;
+    line-height: 1.2;
   }
 
 .meeting .container {
